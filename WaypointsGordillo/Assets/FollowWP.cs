@@ -10,10 +10,15 @@ public class FollowWP : MonoBehaviour
     public float speed = 10.0f;
     public float rotSpeed = 10.0f;
 
+    public GameObject tracker;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+        DestroyImmediate(tracker.GetComponent<Collider>());
+        tracker.transform.position = this.transform.position;
+        transform.rotation = this.transform.rotation;
     }
 
     // Update is called once per frame
