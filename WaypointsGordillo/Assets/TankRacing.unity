@@ -389,6 +389,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!1 &151491732
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +476,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!1 &177498197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1071,7 @@ MonoBehaviour:
   waypoints: []
   speed: 10
   rotSpeed: 10
+  lookAhead: 10
 --- !u!23 &290381409
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1353,6 +1356,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!1 &399815907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1527,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 5
   rotSpeed: 15
+  lookAhead: 10
 --- !u!1 &413773284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +1838,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 5
   rotSpeed: 15
+  lookAhead: 10
 --- !u!1 &502737474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,6 +2009,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!1 &524881450
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,7 +2561,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.000000003352761, y: 4.1912367e+21, z: 2.0797797e+20, w: 8.310403e+20}
+  m_BoundingSphereOverride: {x: 0, y: 3.4e-44, z: 0, w: 3.4e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3067,6 +3074,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1 &859328727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3116,6 +3124,7 @@ MonoBehaviour:
   waypoints: []
   speed: 10
   rotSpeed: 10
+  lookAhead: 10
 --- !u!23 &859328730
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3793,6 +3802,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!1 &1140115714
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,6 +3924,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!1 &1201006581
 GameObject:
   m_ObjectHideFlags: 0
@@ -4084,6 +4095,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 5
   rotSpeed: 15
+  lookAhead: 10
 --- !u!1 &1260753581
 GameObject:
   m_ObjectHideFlags: 0
@@ -4835,6 +4847,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1 &1475296244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,6 +5693,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1 &1848078230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5883,6 +5897,7 @@ MonoBehaviour:
   waypoints: []
   speed: 10
   rotSpeed: 10
+  lookAhead: 10
 --- !u!23 &1951131169
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6987,6 +7002,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!54 &2713447972708953234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7641,6 +7657,7 @@ MonoBehaviour:
   waypoints: []
   speed: 10
   rotSpeed: 10
+  lookAhead: 10
 --- !u!23 &6229746716408875726
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8058,6 +8075,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!54 &7863693248642204186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8125,6 +8143,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 5
   rotSpeed: 15
+  lookAhead: 10
 --- !u!54 &7871142010654116012
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8334,6 +8353,7 @@ MonoBehaviour:
   - {fileID: 2068618306}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!54 &9048989675280529227
 Rigidbody:
   m_ObjectHideFlags: 0
