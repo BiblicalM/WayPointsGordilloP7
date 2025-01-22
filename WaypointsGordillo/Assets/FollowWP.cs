@@ -6,7 +6,7 @@ public class FollowWP : MonoBehaviour
 {
     public GameObject[] waypoints;
     int currentWP = 0;
-
+    
     public float speed = 10.0f;
     public float rotSpeed = 10.0f;
     public float lookAhead = 10.0f;
