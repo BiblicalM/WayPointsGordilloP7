@@ -61,8 +61,8 @@ public class Graph
         while(open.Count > 0)
         {
             int i = lowestF(open);
-            Node = thisNode = open[i];
-            if (this.thisNode.getID() == endID)
+            Node thisNode = open[i];
+            if (thisNode.getID() == endID)
             {
                 ReconstructPath(start, end);
                 return true;
@@ -132,7 +132,7 @@ public class Graph
 
         for(int i = 1; i < l.Count; i++)
         {
-            if ([i].f < lowestf)
+            if (l[i].f < lowestf)
             {
                 lowestf = l[i].f;
                 iteratorCount = count;
